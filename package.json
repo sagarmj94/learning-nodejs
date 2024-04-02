@@ -1,19 +1,21 @@
 {
-  "name": "managing-files-with-nodejs",
+  "name": "node-js-practicing",
   "version": "1.0.0",
-  "description": "Various scripts for the Pluralsight course Managing Files with Node",
+  "description": "This practicing nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taylonr/managing-files-with-nodejs.git"
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Sagar Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.4"
   },
-  "author": "Nate Taylor (taylonr@gmail.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/taylonr/managing-files-with-nodejs/issues"
-  },
-  "homepage": "https://github.com/taylonr/managing-files-with-nodejs#readme"
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
